@@ -1,0 +1,160 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.full {
+  display: block;
+  width: 100%;
+}
+
+.line {
+  display: inline;
+  text-decoration: none;
+}
+
+.link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.glide__slide {
+  filter: blur(6px);
+  opacity: .7;
+  transition: .1s linear;
+}
+
+.glide__slide--active {
+  opacity: 1;
+  filter: none;
+  transform: scale(1.1);
+}
+
+.glide__slides {
+  overflow: visible;
+}
+
+.gradient-custom {
+  background: #000000;
+}
+
+.sidebar {
+  position: fixed;
+  top: 1;
+  bottom: 1;
+  left: 0;
+  padding: 20px 0 0;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 220px;
+  height: 100%;
+  z-index: 600;
+}
+
+body {
+  background-color: #edf1f5;
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0;
+}
+
+.card .card-subtitle {
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #8898aa;
+}
+
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f3f8fa !important
+}
+
+.table-product td {
+  border-top: 0px solid #dee2e6 !important;
+  color: #728299 !important;
+}
+
+.profile {
+  width: 200px;
+  height: auto;
+}
+
+.profile-section {
+  border-style: groove;
+  display: none;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.bg-grey {
+  background-color: #eae8e8;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  .border-sm-start-none {
+    border-left: none !important;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .remove {
+    display: none;
+  }
+}
